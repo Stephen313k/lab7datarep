@@ -39,7 +39,7 @@ export class Create extends React.Component {
     onSubmit(e) {
         e.preventDefault();
         alert("Movie: " + this.state.Title + " "
-            + this.state.Year + " GAYYYYYYY" +
+            + this.state.Year + " " +
             this.state.Poster);
 
             const newMovie = {
